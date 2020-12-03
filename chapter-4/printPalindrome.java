@@ -6,8 +6,7 @@
 
 public static void printPalindrome(Scanner console) {
     System.out.print("Type one or more words: ");
-    String word = console.next();
-    System.out.println();
+    String word = console.nextLine();
     boolean palindrome = true;
     int length = word.length();
     
